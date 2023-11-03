@@ -120,6 +120,5 @@ alias e=exit
 alias d='du -h | tail -n 1'
 alias g=grep
 alias mss="mss -m 1 -o $(date +%T).png"
-PS1='\W\$ '
 xrandr --output Virtual-1 --auto
 export TERM=xterm
