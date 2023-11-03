@@ -197,25 +197,20 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
 fi
 
 ##################################################################################
-########################### PERSONAL #############################################
+########################### PERSONAL  VM #########################################
 ##################################################################################
 
 alias grep='grep --color=auto'
 alias sudo='sudo '
 alias ls='ls --color=always'
 alias feh='feh --scale-down --auto-zoom'
-alias r='ranger /mnt/stuff'
 alias e=exit
 alias q=quit
 alias d='du -h | tail -n 1'
 alias df='df -Th'
 alias du='du -h'
 alias mss="mss -m 1 -o $(date +%T).png"
-alias pro='source /mnt/vms/keys/projectenv/bin/activate'
 export SHELL=/usr/bin/zsh
 alias poweroff='sudo poweroff'
-alias rp='ranger ~/phd'
-export rp='~/phd/'
 alias feh='feh --scale-down --auto-zoom'
-alias drun='docker run -e HSA_OVERRIDE_GFX_VERSION=10.3.0 -it --network=host --device=/dev/kfd --device=/dev/dri --group-add=video --ipc=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v $(pwd):/pwd'
-
+xrandr --output Virtual-1 --auto
