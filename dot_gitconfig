@@ -1,0 +1,7 @@
+[user]
+	email = f.m3hm00d@gmail.com
+	name = Faisal
+[core]
+	editor = vim
+[alias]
+	last = log -1 HEAD

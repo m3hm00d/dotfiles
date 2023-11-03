@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+38f0459d0e51648fb2f3d70384ffc5f05b456516 refs/remotes/origin/CJK
+ced498ba0a006728c02653522cc5c17da7666d21 refs/remotes/origin/description
+9eb7b94c87adb56d09680a8eee543dc9f2cd86c0 refs/remotes/origin/develop
+d1f83d03b6c2a0270178133d35d54c0d11228523 refs/remotes/origin/escaped_path_field
+716b1ccf1ba83baee727060a2e3b8b5cae5977d8 refs/remotes/origin/exclude-dirs
+9eb7b94c87adb56d09680a8eee543dc9f2cd86c0 refs/remotes/origin/master
+752ea2f23c14a86beecff831df6db54fdb19b074 refs/remotes/origin/no-age
+fabe1ef243e8df46a5c66c55fc88b9f3a5e7f1da refs/remotes/origin/normalized-pathfield
+0133201f3defba7a62ea90947ed1558a49a94fa4 refs/remotes/origin/recursive-delete
+82fb4704242d59cc76b62ae73f4028dd7a811f09 refs/remotes/origin/trailing-slash
+58287329a1d251eb20c5223a13cca9b7d2e6547f refs/remotes/origin/unload

@@ -1,0 +1,22 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+#PS1='[\u@\h \W]\$ '
+
+alias grep='grep --color=auto'
+alias sudo='sudo '
+alias l='ls --color=always -lh'
+alias ls='ls --color=always'
+alias feh='feh --scale-down --auto-zoom'
+alias r='ranger /mnt/stuff'
+alias e=exit
+alias mpv='mpv --input-conf=$HOME/.config/mpv/input.conf '
+alias d='du -h | tail -n 1'
+alias g=grep
+alias mss="mss -m 1 -o $(date +%T).png"
+PS1='\W\$ '
