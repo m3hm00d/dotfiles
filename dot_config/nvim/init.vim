@@ -19,6 +19,6 @@ set list listchars=tab:>\ ,trail:+
 "wrap to next line when end of line is reached
 set whichwrap+=<,>,[,]
 
-##### MY #####
+"##### MY #####
 imap jj <Esc>
 syntax on
